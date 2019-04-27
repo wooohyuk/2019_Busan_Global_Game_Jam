@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35bfc03777968094cb47ed547a277a50, type: 3}
+  m_Name: TowerTable
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 114170424785093390, guid: fdcdd15a7a604e34cabee70dc4adffd1, type: 2}
+    - {fileID: 21300000, guid: 15ea94c3d382c6548aa0a36afafe8c30, type: 3}
+    - {fileID: 114624193772478468, guid: d2c71a974c1aee6438d9a3c5fbf7f34a, type: 2}
+    - {fileID: 21300000, guid: f38322679b616f0449ac01e488d39262, type: 3}
+    - {fileID: 114344387612491210, guid: aa97273d6d92df34cab288e2c7390530, type: 2}
+    - {fileID: 21300000, guid: 79abedcb1bce16a49b7efea9abcad0e4, type: 3}
+    - {fileID: 114543398201861956, guid: 9eab86e4ea09fc344bd996ad58d853c0, type: 2}
+    - {fileID: 21300000, guid: eab146c26bdb0b0418b5d6c228611748, type: 3}
+    - {fileID: 114472441406070334, guid: 7802ffcbba09d2143a13f68c73499d08, type: 2}
+    - {fileID: 21300000, guid: d0a025c9dc903f04f8befe016c8a1ef4, type: 3}
+    - {fileID: 114815831236690114, guid: 766fd2e258bb8f341a19f931c0728373, type: 2}
+    - {fileID: 21300000, guid: 1afe446a44faa91449f73f3794821f6c, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: statuses
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[TowerStatus, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 1|TowerStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uC131\uC8FC\uC2E0"
+    - Name: id
+      Entry: 1
+      Data: sg
+    - Name: hp
+      Entry: 3
+      Data: 5
+    - Name: damage
+      Entry: 3
+      Data: 25
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.8
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 0
+    - Name: sprite
+      Entry: 10
+      Data: 1
+    - Name: cost
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|TowerStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uC870\uC655\uC2E0"
+    - Name: id
+      Entry: 1
+      Data: jw
+    - Name: hp
+      Entry: 3
+      Data: 10
+    - Name: damage
+      Entry: 3
+      Data: 10
+    - Name: attackSpeed
+      Entry: 4
+      Data: 1
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 2
+    - Name: sprite
+      Entry: 10
+      Data: 3
+    - Name: cost
+      Entry: 3
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TowerStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uC0BC\uC2E0"
+    - Name: id
+      Entry: 1
+      Data: s
+    - Name: hp
+      Entry: 3
+      Data: 20
+    - Name: damage
+      Entry: 3
+      Data: 10
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.2
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 4
+    - Name: sprite
+      Entry: 10
+      Data: 5
+    - Name: cost
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|TowerStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uC9C0\uC2E0"
+    - Name: id
+      Entry: 1
+      Data: g
+    - Name: hp
+      Entry: 3
+      Data: 150
+    - Name: damage
+      Entry: 3
+      Data: 0
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.1
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 6
+    - Name: sprite
+      Entry: 10
+      Data: 7
+    - Name: cost
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|TowerStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uCE21\uC2E0"
+    - Name: id
+      Entry: 1
+      Data: c
+    - Name: hp
+      Entry: 3
+      Data: 20
+    - Name: damage
+      Entry: 3
+      Data: 0
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.5
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 8
+    - Name: sprite
+      Entry: 10
+      Data: 9
+    - Name: cost
+      Entry: 3
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|TowerStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uCE60\uC131\uC2E0"
+    - Name: id
+      Entry: 1
+      Data: cs
+    - Name: hp
+      Entry: 3
+      Data: 100
+    - Name: damage
+      Entry: 3
+      Data: 60
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.1
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 10
+    - Name: sprite
+      Entry: 10
+      Data: 11
+    - Name: cost
+      Entry: 3
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  hp: 1
+  damage: 1
+  attackSpeed: 1

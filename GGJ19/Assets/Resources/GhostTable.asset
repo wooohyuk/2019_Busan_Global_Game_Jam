@@ -1,0 +1,490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47a678f56c8c9cf438bf19e75dfe9706, type: 3}
+  m_Name: GhostTable
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 114968506793227374, guid: c30277e0d83125e4dbbf2dbb086be584, type: 2}
+    - {fileID: 21300000, guid: 5222046fbfea1c24191a1aeff2d4bee9, type: 3}
+    - {fileID: 114618164455358596, guid: edc36ab12b426c146b26f6d40ed8ea42, type: 2}
+    - {fileID: 21300000, guid: cc1c4feb1da787241becbf0612e7aeff, type: 3}
+    - {fileID: 114864909075935188, guid: 2d319c1b65cb88c4b895e21ac1ac4e29, type: 2}
+    - {fileID: 21300000, guid: 0cc8523ceeb3172489b99450e42b515b, type: 3}
+    - {fileID: 114287843751375980, guid: dd73bd86e05336945a2edef009f6dae1, type: 2}
+    - {fileID: 21300000, guid: 04dfd9c1914629b46bdfed8c350ffc00, type: 3}
+    - {fileID: 114656421156146564, guid: 2cdd98158eaeff4448b1221cff67bbf9, type: 2}
+    - {fileID: 21300000, guid: e47a3771c682a2447aa0511556917b9f, type: 3}
+    - {fileID: 114432281222703678, guid: 0ccf4ef70d91bc94e881aad537bc252e, type: 2}
+    - {fileID: 21300000, guid: 31d7c89008d80554a8056033a7a5c78a, type: 3}
+    - {fileID: 114769508265564348, guid: 8e04ff164938511438b42aecf2123740, type: 2}
+    - {fileID: 21300000, guid: 321af0af7f20f6a4aaaece11ec1ffb2b, type: 3}
+    - {fileID: 114989868080587402, guid: 7fe7121f4de94aa4490cda836fb7d90a, type: 2}
+    - {fileID: 21300000, guid: b2267917a7cf2614b99e71b12ab40876, type: 3}
+    - {fileID: 114388234634662468, guid: d03353d22a69bc040a690ac988f03fc4, type: 2}
+    - {fileID: 21300000, guid: 12d76c9973f1fae4db76f66d3b13afd6, type: 3}
+    - {fileID: 114416060879999332, guid: bdfbf910e60d88a47b8840e573f990d5, type: 2}
+    - {fileID: 21300000, guid: 175eaeccd8ca2944bb14679366f2cee0, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: statuses
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[GhostStatus, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: 
+      Entry: 7
+      Data: 1|GhostStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uC950"
+    - Name: id
+      Entry: 1
+      Data: mouse
+    - Name: hp
+      Entry: 3
+      Data: 10
+    - Name: damage
+      Entry: 3
+      Data: 10
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.8
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 0
+    - Name: sprite
+      Entry: 10
+      Data: 1
+    - Name: speed
+      Entry: 4
+      Data: 25
+    - Name: cost
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|GhostStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uBC40"
+    - Name: id
+      Entry: 1
+      Data: snake
+    - Name: hp
+      Entry: 3
+      Data: 25
+    - Name: damage
+      Entry: 3
+      Data: 20
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.5
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 2
+    - Name: sprite
+      Entry: 10
+      Data: 3
+    - Name: speed
+      Entry: 4
+      Data: 10
+    - Name: cost
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GhostStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uBA67\uB3FC\uC9C0"
+    - Name: id
+      Entry: 1
+      Data: pig
+    - Name: hp
+      Entry: 3
+      Data: 40
+    - Name: damage
+      Entry: 3
+      Data: 20
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.75
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 4
+    - Name: sprite
+      Entry: 10
+      Data: 5
+    - Name: speed
+      Entry: 4
+      Data: 30
+    - Name: cost
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|GhostStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uC7A1\uADC0"
+    - Name: id
+      Entry: 1
+      Data: demon
+    - Name: hp
+      Entry: 3
+      Data: 30
+    - Name: damage
+      Entry: 3
+      Data: 15
+    - Name: attackSpeed
+      Entry: 4
+      Data: 1.2
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 6
+    - Name: sprite
+      Entry: 10
+      Data: 7
+    - Name: speed
+      Entry: 4
+      Data: 10
+    - Name: cost
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|GhostStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uAC10\uAE30\uADC0\uC2E0"
+    - Name: id
+      Entry: 1
+      Data: flu
+    - Name: hp
+      Entry: 3
+      Data: 15
+    - Name: damage
+      Entry: 3
+      Data: 10
+    - Name: attackSpeed
+      Entry: 4
+      Data: 1
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 8
+    - Name: sprite
+      Entry: 10
+      Data: 9
+    - Name: speed
+      Entry: 4
+      Data: 5
+    - Name: cost
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|GhostStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uB2EC\uAC40\uADC0\uC2E0"
+    - Name: id
+      Entry: 1
+      Data: egg
+    - Name: hp
+      Entry: 3
+      Data: 100
+    - Name: damage
+      Entry: 3
+      Data: 100
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.75
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 10
+    - Name: sprite
+      Entry: 10
+      Data: 11
+    - Name: speed
+      Entry: 4
+      Data: 65
+    - Name: cost
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|GhostStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uBC40\uB0E5\uC774"
+    - Name: id
+      Entry: 1
+      Data: cat
+    - Name: hp
+      Entry: 3
+      Data: 25
+    - Name: damage
+      Entry: 3
+      Data: 2
+    - Name: attackSpeed
+      Entry: 4
+      Data: 30
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 12
+    - Name: sprite
+      Entry: 10
+      Data: 13
+    - Name: speed
+      Entry: 4
+      Data: 30
+    - Name: cost
+      Entry: 3
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|GhostStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uADF8\uC2A8\uB300"
+    - Name: id
+      Entry: 1
+      Data: gsd
+    - Name: hp
+      Entry: 3
+      Data: 2000
+    - Name: damage
+      Entry: 3
+      Data: 200
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.3
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 14
+    - Name: sprite
+      Entry: 10
+      Data: 15
+    - Name: speed
+      Entry: 4
+      Data: 3
+    - Name: cost
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 9|GhostStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uB3C4\uAE68\uBE44"
+    - Name: id
+      Entry: 1
+      Data: dgb
+    - Name: hp
+      Entry: 3
+      Data: 75
+    - Name: damage
+      Entry: 3
+      Data: 25
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.85
+    - Name: isUsed
+      Entry: 5
+      Data: false
+    - Name: prefab
+      Entry: 6
+      Data: 
+    - Name: sprite
+      Entry: 6
+      Data: 
+    - Name: speed
+      Entry: 4
+      Data: 75
+    - Name: cost
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 10|GhostStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uADC0\uC218\uC0B0"
+    - Name: id
+      Entry: 1
+      Data: gss
+    - Name: hp
+      Entry: 3
+      Data: 100
+    - Name: damage
+      Entry: 3
+      Data: 20
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.5
+    - Name: isUsed
+      Entry: 5
+      Data: false
+    - Name: prefab
+      Entry: 6
+      Data: 
+    - Name: sprite
+      Entry: 6
+      Data: 
+    - Name: speed
+      Entry: 4
+      Data: 35
+    - Name: cost
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 11|GhostStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uAD6C\uBBF8\uD638"
+    - Name: id
+      Entry: 1
+      Data: gmh
+    - Name: hp
+      Entry: 3
+      Data: 4000
+    - Name: damage
+      Entry: 3
+      Data: 100
+    - Name: attackSpeed
+      Entry: 4
+      Data: 10
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 16
+    - Name: sprite
+      Entry: 10
+      Data: 17
+    - Name: speed
+      Entry: 4
+      Data: 80
+    - Name: cost
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|GhostStatus, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: "\uB4DC\uB798\uACE4"
+    - Name: id
+      Entry: 1
+      Data: dragon
+    - Name: hp
+      Entry: 3
+      Data: 6000
+    - Name: damage
+      Entry: 3
+      Data: 200
+    - Name: attackSpeed
+      Entry: 4
+      Data: 0.6
+    - Name: isUsed
+      Entry: 5
+      Data: true
+    - Name: prefab
+      Entry: 10
+      Data: 18
+    - Name: sprite
+      Entry: 10
+      Data: 19
+    - Name: speed
+      Entry: 4
+      Data: 85
+    - Name: cost
+      Entry: 3
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  hp: 1
+  damage: 1
+  attackSpeed: 1
+  speed: 0.1

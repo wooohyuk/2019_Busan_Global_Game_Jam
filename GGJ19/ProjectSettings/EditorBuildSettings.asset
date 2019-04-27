@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ChoeHB/menuSCene.unity
+    guid: 050273a9070efc449aeb4703f6179bb8
+  - enabled: 1
+    path: Assets/ChoeHB/testScene.unity
+    guid: cecf3317a60617d438bec4faef3f6f60
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/StageSelect.unity
+    guid: 0b0fda46bd0fa4a479ff311286158e22
+  - enabled: 1
+    path: Assets/Scenes/InGame.unity
+    guid: 2a049b6b41c9cc04f9ce4a11a9afecf1
+  - enabled: 1
+    path: Assets/Scenes/Result.unity
+    guid: 3168464da8230b3419ac060a519071ba
+  m_configObjects: {}

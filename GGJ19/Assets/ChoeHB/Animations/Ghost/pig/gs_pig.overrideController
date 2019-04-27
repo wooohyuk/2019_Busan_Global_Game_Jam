@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: gs_pig
+  m_Controller: {fileID: 9100000, guid: 6d558371f9a1cbe49a4ede40af63d521, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 74935760263717656, guid: 6d558371f9a1cbe49a4ede40af63d521,
+      type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e94bddfc044afce4d880e51ccb174c9b, type: 2}
+  - m_OriginalClip: {fileID: 74803373935608584, guid: 6d558371f9a1cbe49a4ede40af63d521,
+      type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fbc756ef10f72c54190b68afd3860730, type: 2}
+  - m_OriginalClip: {fileID: 74972724955119446, guid: 6d558371f9a1cbe49a4ede40af63d521,
+      type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4b84533b82f0fdb458878bf8e0232dd0, type: 2}
+  - m_OriginalClip: {fileID: 74864470617704192, guid: 6d558371f9a1cbe49a4ede40af63d521,
+      type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 49effc3950a7a194897c2ee9e2caab53, type: 2}
